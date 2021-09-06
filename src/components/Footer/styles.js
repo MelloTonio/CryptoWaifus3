@@ -4,8 +4,8 @@ export const FooterBase = styled.footer`
   position: fixed;
   left: 0;
   bottom: 0;
-  position: relative;
-  z-index: 9998 !important;
+  position: fixed;
+  z-index: 666 !important;
   width: 100%;
   background-image: linear-gradient(#aba7c950, #3e3b58);
   color: white;
