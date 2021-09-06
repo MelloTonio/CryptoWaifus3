@@ -1,0 +1,64 @@
+.Logo {
+  width: 350px;
+  height: 175px;
+}
+@media (max-width: 800px) {
+  .Logo {
+    max-width: 100px;
+    margin-right: 0px;
+    height: 38px;
+  }
+}
+
+.Menu {
+  width: 100%;
+  height: 185px;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background: #3e3b58;
+  background-image: url('https://cdn.discordapp.com/attachments/853072668274458664/884292318277025822/Banner-export.gif');
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-bottom: 1px solid black;
+}
+body {
+  --bodyPaddingTop: 94px;
+  padding-top: var(--bodyPaddingTop);
+}
+@media (max-width: 800px) {
+  .Menu {
+    height: 48px;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .Helper {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  body {
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+  .button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+  }
+}

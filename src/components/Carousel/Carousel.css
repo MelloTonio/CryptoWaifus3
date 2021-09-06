@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fuckAlura{
+  width: 480px;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleHelper{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.tracks{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.box:hover .tracks{
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .fuckAlura{
+    width: 350px;
+  }
+  .titleHelper{
+    width: 200px;
+  }
+  .tracks{
+    visibility: visible;
+    opacity: 1;
+    transition: none;
+  }
+  
+}
+

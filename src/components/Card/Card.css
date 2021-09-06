@@ -1,0 +1,34 @@
+.cardDefault {
+  background-image: url('https://media.discordapp.net/attachments/853072668274458664/884249308055085066/InfoBox.png');
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.same {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.unflex-name {
+  display: flex;
+  justify-content: initial;
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 80px;
+}
+
+.text {
+  text-align: justify;
+  color: black;
+  font-size: 25px;
+
+  margin-top: -30px;
+}
+
+.unflex {
+  display: flex;
+  justify-content: center;
+}

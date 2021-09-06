@@ -1,0 +1,14 @@
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .img {
+    height: 25px;
+  }
+}
