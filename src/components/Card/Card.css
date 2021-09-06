@@ -16,7 +16,7 @@
 .unflex-name {
   display: flex;
   justify-content: initial;
-  font-family: 'Silkscreen', sans-serif;
+  font-family: 'VT323', monospace;
   font-size: 80px;
 }
 
