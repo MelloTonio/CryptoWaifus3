@@ -1,31 +1,13 @@
 /* eslint-disable react/jsx-filename-extension */
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 
-import { v4 as uuidv4 } from 'uuid';
 import Carroussel from '../../components/React3DCarousel';
 import Menu from '../../components/Menu';
-import BannerMain from '../../components/BannerMain';
 import Footer from '../../components/Footer';
-import { Example } from '../../components/React3DCarousel';
 import CardNews from '../../components/CardNews';
 
 import Card from '../../components/Card';
-
-import waifu from '../../assets/images/waifu.jpg';
-import waifu2 from '../../assets/images/waifu2.jpeg';
-import waifu3 from '../../assets/images/waifu3.jpeg';
-import waifu4 from '../../assets/images/waifu4.jpg';
-import waifu5 from '../../assets/images/waifu5.jpg';
-import waifu6 from '../../assets/images/waifu6.jpg';
-
-let slides = [
-  <img src="https://picsum.photos/800/300/?random" alt="1" />,
-  <img src="https://picsum.photos/800/301/?random" alt="2" />,
-  <img src="https://picsum.photos/800/302/?random" alt="3" />,
-  <img src="https://picsum.photos/800/303/?random" alt="4" />,
-  <img src="https://picsum.photos/800/304/?random" alt="5" />,
-];
 
 function Home() {
   let cards = [

@@ -13,15 +13,13 @@ import './index.css';
 import Page404 from './pages/Page404';
 import Home from './pages/Home/Home';
 
-
 ReactDOM.render(
   <div>
     <BrowserRouter>
       <Switch>
         <Route path="/" component={Home} exact />
       </Switch>
-
     </BrowserRouter>
   </div>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );

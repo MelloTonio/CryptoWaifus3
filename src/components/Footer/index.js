@@ -9,6 +9,7 @@ function Footer() {
     <FooterBase>
       <div className="icons">
         <div className="icon">
+          <br />
           <a href="https://github.com/MelloTonio">
             <img
               className="img"
@@ -17,10 +18,7 @@ function Footer() {
               alt="Logo NANO"
             />
           </a>
-          <h5 style={{ fontFamily: 'sans-serif' }}>
-            {' '}
-            site design / logo © 2021 CryptoWaifu Inc{' '}
-          </h5>
+          <h5 style={{ fontFamily: 'sans-serif' }}> © 2021 CryptoWaifu Inc </h5>
           <h5 style={{ fontFamily: 'sans-serif' }}>
             {' '}
             TIP US - NANO ADDRESS:
