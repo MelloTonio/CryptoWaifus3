@@ -11,6 +11,8 @@ import { useWideCardMediaStyles } from '@mui-treasury/styles/cardMedia/wide';
 import { useN01TextInfoContentStyles } from '@mui-treasury/styles/textInfoContent/n01';
 import { useBouncyShadowStyles } from '@mui-treasury/styles/shadow/bouncy';
 
+import './carnews.css';
+
 function Star(props) {
   return (
     <svg
@@ -73,7 +75,7 @@ export const NewsCardDemo = React.memo(function NewsCard(props) {
 
   return (
     <>
-      <Card className={cx(styles.root, shadowStyles.root)}>
+      <Card className={cx(styles.root, shadowStyles.root) + ' cardMan'}>
         <CardMedia
           classes={mediaStyles}
           image={props.Waifu}
