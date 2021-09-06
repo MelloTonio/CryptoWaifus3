@@ -36,6 +36,43 @@ body {
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
 }
+
+@media (max-width: 1400px) {
+  .carrousel {
+    margin-left: 610px !important;
+    height: 10px;
+  }
+  .Menu {
+    height: 100px !important;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .Logo {
+    width: 150px;
+    height: 80px;
+  }
+  .Helper {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  body {
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+  .button {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+  }
+}
+
 @media (max-width: 800px) {
   .Menu {
     height: 48px;
