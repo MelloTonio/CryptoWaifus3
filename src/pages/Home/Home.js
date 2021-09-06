@@ -191,11 +191,12 @@ function Home() {
   return (
     <>
       <Menu />
-      <div className="teste">
-        <Carroussel cards={cards} table={table} goToSlide={goToSlide} />
-      </div>
-      <div className="teste2">
-        <Card info={goToSlide} />
+      <div className="teste3">
+        <div className="teste"></div>
+        <div className="teste2">
+          <Card info={goToSlide} />
+          <Carroussel cards={cards} table={table} goToSlide={goToSlide} />
+        </div>
       </div>
       <Footer />
     </>
