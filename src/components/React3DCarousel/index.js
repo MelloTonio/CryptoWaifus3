@@ -18,7 +18,7 @@ export default function Carroussel(props) {
   return (
     <div className="wrapper">
       <div
-        style={{ width: 800, height: props.height, marginLeft: 1100 }}
+        style={{ width: 800, height: props.height, marginLeft: 800 }}
         className="carrousel"
       >
         <Carousel

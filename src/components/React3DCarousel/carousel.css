@@ -1,3 +1,6 @@
-.anCarr {
-  border: 10px solid black;
+@media (max-width: 1400px) {
+  .carrousel {
+    margin-left: 610px !important;
+    height: 10px;
+  }
 }

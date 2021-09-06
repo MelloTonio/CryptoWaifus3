@@ -16,6 +16,7 @@
   grid-template-columns: 100px 100px 100px 100px;
   justify-content: center;
   width: 50%;
+  margin-left: -150px;
 
   height: 100%;
 }
@@ -25,6 +26,13 @@
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1400px) {
+  .teste2 {
+    justify-content: flex-start;
+    margin-left: -50px;
+  }
 }
 
 @media (max-width: 800px) {
