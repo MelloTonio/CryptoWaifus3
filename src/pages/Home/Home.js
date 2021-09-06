@@ -191,20 +191,14 @@ function Home() {
   return (
     <>
       <Menu />
-      <div className="teste36">
-        <div className="teste2">
-          <div>
-            <Card className="batatinha" info={goToSlide} />
-          </div>
-          <div>
-            <Carroussel
-              cards={cards}
-              table={table}
-              goToSlide={goToSlide}
-              className="teste23"
-            />
-          </div>
-        </div>
+      <div className="teste2">
+        <Carroussel
+          cards={cards}
+          table={table}
+          goToSlide={goToSlide}
+          className="teste23"
+        />
+        <Card className="batatinha" info={goToSlide} />
       </div>
       <Footer />
     </>

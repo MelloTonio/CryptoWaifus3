@@ -14,7 +14,9 @@
   margin-top: 200px;
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
-  justify-content: space-around;
+  justify-content: center;
+  width: 50%;
+
   height: 100%;
 }
 
